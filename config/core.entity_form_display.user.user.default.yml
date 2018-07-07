@@ -8,6 +8,40 @@ dependencies:
   module:
     - image
     - user
+third_party_settings:
+  field_group:
+    group_user_account:
+      children:
+        - account
+        - timezone
+        - language
+      parent_name: ''
+      weight: 0
+      format_type: details
+      format_settings:
+        label: 'User Account'
+        open: true
+        required_fields: true
+        id: ''
+        classes: ''
+      label: 'User Account'
+    group_profile_information:
+      children:
+        - field_first_name
+        - field_last_name
+        - field_job_title
+        - field_company
+        - field_bio
+        - user_picture
+      parent_name: ''
+      weight: 1
+      format_type: details
+      format_settings:
+        id: ''
+        classes: ''
+        open: false
+        required_fields: true
+      label: 'Profile Information'
 _core:
   default_config_hash: K-1rBM8mTIkFp9RqOC2tMRUukOQ1xbRCfSKK8dEddnA
 id: user.user.default
@@ -24,6 +58,12 @@ content:
   language:
     weight: 0
     region: content
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   timezone:
     weight: 6
     region: content
