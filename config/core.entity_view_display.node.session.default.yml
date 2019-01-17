@@ -35,15 +35,15 @@ content:
     region: content
   field_audience_level:
     weight: 105
-    label: above
+    label: inline
     settings:
-      link: true
+      link: false
     third_party_settings: {  }
     type: entity_reference_label
     region: content
   field_conf_day:
     weight: 110
-    label: above
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
@@ -51,7 +51,7 @@ content:
     region: content
   field_conf_room:
     weight: 111
-    label: above
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
@@ -59,17 +59,17 @@ content:
     region: content
   field_conf_timeslot:
     weight: 109
-    label: above
+    label: inline
     settings:
-      link: true
+      link: false
     third_party_settings: {  }
     type: entity_reference_label
     region: content
   field_conf_year:
     weight: 108
-    label: above
+    label: inline
     settings:
-      link: true
+      link: false
     third_party_settings: {  }
     type: entity_reference_label
     region: content
@@ -86,7 +86,7 @@ content:
     region: content
   field_slides:
     weight: 103
-    label: above
+    label: inline
     settings:
       use_description_as_link_text: true
     third_party_settings: {  }
@@ -94,24 +94,25 @@ content:
     region: content
   field_speakers:
     weight: 102
-    label: above
+    label: inline
     settings:
-      link: true
+      view_mode: compact
+      link: false
     third_party_settings: {  }
-    type: entity_reference_label
+    type: entity_reference_entity_view
     region: content
   field_status:
     weight: 104
-    label: above
+    label: inline
     settings: {  }
     third_party_settings: {  }
     type: list_default
     region: content
   field_topic:
     weight: 106
-    label: above
+    label: inline
     settings:
-      link: true
+      link: false
     third_party_settings: {  }
     type: entity_reference_label
     region: content

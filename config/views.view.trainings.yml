@@ -1,18 +1,18 @@
-uuid: abc44fe8-3941-4ce1-964c-77537248d508
+uuid: 12467202-d469-401a-a87c-b7c1c2ce4651
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - node.type.session
+    - node.type.training
     - taxonomy.vocabulary.conference_years
   module:
     - node
     - options
     - taxonomy
     - user
-id: accepted_sessions
-label: 'Accepted Sessions'
+id: trainings
+label: Trainings
 module: views
 description: 'Display list of accepted sessions'
 tag: ''
@@ -139,8 +139,39 @@ display:
           id: type
           table: node_field_data
           field: type
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: in
           value:
-            session: session
+            training: training
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
           entity_type: node
           entity_field: type
           plugin_id: bundle
@@ -210,21 +241,8 @@ display:
           entity_type: node
           entity_field: title
           plugin_id: standard
-      title: 'Accepted Sessions'
-      header:
-        area:
-          id: area
-          table: views
-          field: area
-          relationship: none
-          group_type: group
-          admin_label: ''
-          empty: false
-          tokenize: false
-          content:
-            value: "<h2>View the <a href=\"/days/2018/sessions-day-saturday\">schedule<a/>.</h2>\n"
-            format: full_html
-          plugin_id: text
+      title: 'Accepted Trainings'
+      header: {  }
       footer: {  }
       empty: {  }
       relationships:
@@ -303,11 +321,11 @@ display:
   accepted_sessions_page:
     display_plugin: page
     id: accepted_sessions_page
-    display_title: 'Page: accepted sessions'
+    display_title: 'Page: accepted trainings'
     position: 1
     display_options:
       display_extenders: {  }
-      path: sessions/%
+      path: trainings/%
       display_description: ''
       empty:
         area:
@@ -342,16 +360,16 @@ display:
   page_1:
     display_plugin: page
     id: page_1
-    display_title: 'Page: proposed sessions'
+    display_title: 'Page: proposed trainings'
     position: 2
     display_options:
       display_extenders: {  }
-      title: 'Proposed Sessions'
+      title: 'Proposed Trainings'
       defaults:
         title: false
         filters: false
         filter_groups: false
-      path: sessions/%/proposed
+      path: trainings/%/proposed
       filters:
         status:
           value: '1'
@@ -368,8 +386,39 @@ display:
           id: type
           table: node_field_data
           field: type
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: in
           value:
-            session: session
+            training: training
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
           entity_type: node
           entity_field: type
           plugin_id: bundle
