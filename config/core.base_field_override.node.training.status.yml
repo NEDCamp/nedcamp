@@ -1,13 +1,13 @@
-uuid: c5b6b7cf-0e11-431b-9f9b-bfc0d9baec75
+uuid: 3072a034-c226-41ce-bd02-72471c10d946
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.session
-id: node.session.status
+    - node.type.training
+id: node.training.status
 field_name: status
 entity_type: node
-bundle: session
+bundle: training
 label: Published
 description: ''
 required: false

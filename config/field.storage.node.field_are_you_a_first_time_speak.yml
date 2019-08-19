@@ -1,25 +1,22 @@
-uuid: 5f5d25d5-e956-4b1a-9bc6-8347b3a9af54
+uuid: 7745d0a5-b69f-46ba-831b-3f4f895529d3
 langcode: en
 status: true
 dependencies:
   module:
     - field_permissions
     - node
-    - text
 third_party_settings:
   field_permissions:
     permission_type: public
-_core:
-  default_config_hash: EBUo7qOWqaiZaQ_RC9sLY5IoDKphS34v77VIHSACmVY
-id: node.body
-field_name: body
+id: node.field_are_you_a_first_time_speak
+field_name: field_are_you_a_first_time_speak
 entity_type: node
-type: text_with_summary
+type: boolean
 settings: {  }
-module: text
+module: core
 locked: false
 cardinality: 1
 translatable: true
 indexes: {  }
-persist_with_no_fields: true
+persist_with_no_fields: false
 custom_storage: false

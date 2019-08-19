@@ -1,0 +1,64 @@
+uuid: 369a36c3-8f5d-4349-96e6-b75edce5a263
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - node
+    - options
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: node.field_underrepresented_community
+field_name: field_underrepresented_community
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Ability
+      label: Ability
+    -
+      value: Age
+      label: Age
+    -
+      value: Ethnicity
+      label: Ethnicity
+    -
+      value: Gender
+      label: Gender
+    -
+      value: Gender_identity
+      label: 'Gender identity'
+    -
+      value: Race
+      label: Race
+    -
+      value: Religion
+      label: Religion
+    -
+      value: Sexual_orientation
+      label: 'Sexual orientation'
+    -
+      value: Socio_economic_status_class
+      label: 'Socio-economic status/class'
+    -
+      value: Learning_differences
+      label: 'Learning differences'
+    -
+      value: Family_composition
+      label: 'Family composition'
+    -
+      value: None
+      label: None
+    -
+      value: Prefer_not
+      label: 'Prefer not to answer'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

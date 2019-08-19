@@ -1,4 +1,4 @@
-uuid: 5f5d25d5-e956-4b1a-9bc6-8347b3a9af54
+uuid: 1c5d8ddb-9c66-40e1-8c1b-2bf04b2d617e
 langcode: en
 status: true
 dependencies:
@@ -9,17 +9,15 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
-_core:
-  default_config_hash: EBUo7qOWqaiZaQ_RC9sLY5IoDKphS34v77VIHSACmVY
-id: node.body
-field_name: body
+id: node.field_past_trainings
+field_name: field_past_trainings
 entity_type: node
-type: text_with_summary
+type: text_long
 settings: {  }
 module: text
 locked: false
 cardinality: 1
 translatable: true
 indexes: {  }
-persist_with_no_fields: true
+persist_with_no_fields: false
 custom_storage: false

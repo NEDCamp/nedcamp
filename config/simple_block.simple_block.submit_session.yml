@@ -1,0 +1,11 @@
+uuid: 70fa0183-46ec-4c11-8473-563c18b2ab18
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+id: submit_session
+title: 'Submit a session'
+content:
+  value: "<p><a href=\"https://nedcamp.org/node/add/session\"><strong>Submit a session</strong></a></p>\r\n\r\n<p><a href=\"https://nedcamp.org/node/add/training\"><strong>Submit a training</strong></a></p>\r\n"
+  format: basic_html

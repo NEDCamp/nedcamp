@@ -7,5 +7,5 @@ dependencies:
 id: sidebar_actions
 title: 'Sidebar Actions'
 content:
-  value: "<ul>\r\n\t<li><a class=\"button\" href=\"https://www.youtube.com/channel/UCxFYh7d37gOMWfchVlbEFQg\">Session Videos</a></li>\r\n</ul>\r\n"
+  value: "<ul>\r\n\t<li><a class=\"button\" href=\"/roadshow\">Drupal Roadshow</a></li>\r\n\t<li><a class=\"button\" href=\"/sponsorship\">Become a Sponsor</a></li>\r\n\t<li><a class=\"button\" href=\"/submit-session\">Submit a Session</a></li>\r\n<li><a class=\"button\" href=\"/submit-training\">Submit a Training</a></li>\r\n\t<li><a class=\"button\" href=\"https://www.youtube.com/channel/UCxFYh7d37gOMWfchVlbEFQg\">Session Videos</a></li>\r\n</ul>\r\n"
   format: full_html

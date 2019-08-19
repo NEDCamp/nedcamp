@@ -1,0 +1,21 @@
+uuid: 2561c412-d716-44fa-a4cd-1a539943b067
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_past_trainings
+    - node.type.training
+  module:
+    - text
+id: node.training.field_past_trainings
+field_name: field_past_trainings
+entity_type: node
+bundle: training
+label: 'Past Trainings'
+description: 'Please provide links to previous trainings you have provided.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

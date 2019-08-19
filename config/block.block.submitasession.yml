@@ -1,0 +1,37 @@
+uuid: 60caec7e-ee60-450c-a84f-01f76aac3c39
+langcode: en
+status: true
+dependencies:
+  config:
+    - simple_block.simple_block.submit_session
+  module:
+    - simple_block
+    - system
+    - user
+  theme:
+    - showcaseplus
+id: submitasession
+theme: showcaseplus
+region: content
+weight: -10
+provider: null
+plugin: 'simple_block:submit_session'
+settings:
+  id: 'simple_block:submit_session'
+  label: 'Submit a session'
+  provider: simple_block
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /user/my-submissions
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+      organizer: organizer
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

@@ -1,0 +1,21 @@
+uuid: f64595b7-2e5a-44a3-ade7-95ae20b3ac97
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_underrepresented_community
+    - node.type.session
+  module:
+    - options
+id: node.session.field_underrepresented_community
+field_name: field_underrepresented_community
+entity_type: node
+bundle: session
+label: 'Underrepresented Community'
+description: "<strong>Please indicate any of the following underrepresented communities that you identify with. We have <a href=\"https://www.drupal.org/drupalorg/docs/user-accounts/demographic-information\">provided some examples</a> of each, but these are not exhaustive—if you feel you identify, please mark the box.</strong>\r\n\r\nThis field will remain private, and will only be used to provide anonymized, aggregate data about the makeup of the Drupal community.\r\n\r\nWe have chosen these categories based on the <a href=\"https://www.isdnetwork.org/what-is-diversity.html\">Big 8</a>, which is a list of cultural identifiers. <a href=\"https://www.drupal.org/drupalorg/docs/user-accounts/demographic-information\">Learn more about why we collect this type of data.</a>"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

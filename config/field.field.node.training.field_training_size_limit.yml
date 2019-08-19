@@ -1,0 +1,23 @@
+uuid: 271ebe27-0e73-475d-9ff9-9724037c5e3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_training_size_limit
+    - node.type.training
+id: node.training.field_training_size_limit
+field_name: field_training_size_limit
+entity_type: node
+bundle: training
+label: 'Training Size Limit'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
