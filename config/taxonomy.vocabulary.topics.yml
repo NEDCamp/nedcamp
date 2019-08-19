@@ -5,5 +5,4 @@ dependencies: {  }
 name: Topics
 vid: topics
 description: 'Use to group sessions and trainings by conference topics'
-hierarchy: 0
 weight: 0

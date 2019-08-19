@@ -5,5 +5,4 @@ dependencies: {  }
 name: 'Conference Years'
 vid: conference_years
 description: 'Used to group content by conference year.'
-hierarchy: 0
 weight: 0

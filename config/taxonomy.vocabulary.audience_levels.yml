@@ -5,5 +5,4 @@ dependencies: {  }
 name: 'Audience Levels'
 vid: audience_levels
 description: 'Use to group sessions and trainings by attendee experience.'
-hierarchy: 0
 weight: 0
