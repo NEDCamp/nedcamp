@@ -5,6 +5,10 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.location.body
+    - field.field.node.location.field_address
+    - field.field.node.location.field_conf_year
+    - field.field.node.location.field_directions
+    - field.field.node.location.field_photos
     - node.type.location
   module:
     - text
@@ -25,6 +29,8 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   field_address: true
   field_conf_year: true

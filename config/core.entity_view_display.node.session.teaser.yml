@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.session.body
+    - field.field.node.session.field_are_you_a_first_time_speak
     - field.field.node.session.field_audience_level
     - field.field.node.session.field_conf_day
     - field.field.node.session.field_conf_room
@@ -15,6 +16,7 @@ dependencies:
     - field.field.node.session.field_speakers
     - field.field.node.session.field_status
     - field.field.node.session.field_topic
+    - field.field.node.session.field_underrepresented_community
     - node.type.session
   module:
     - text
@@ -38,6 +40,7 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_are_you_a_first_time_speak: true
   field_audience_level: true
   field_conf_day: true
   field_conf_room: true
@@ -48,3 +51,4 @@ hidden:
   field_speakers: true
   field_status: true
   field_topic: true
+  field_underrepresented_community: true

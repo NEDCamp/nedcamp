@@ -4,6 +4,9 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.conf_day.field_conf_year
+    - field.field.node.conf_day.field_date
+    - field.field.node.conf_day.field_day_timeslots
     - node.type.conf_day
   module:
     - user
@@ -15,6 +18,8 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   field_conf_year: true
   field_date: true
