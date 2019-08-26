@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.session.body
+    - field.field.node.session.field_are_you_a_first_time_speak
     - field.field.node.session.field_audience_level
     - field.field.node.session.field_conf_day
     - field.field.node.session.field_conf_room
@@ -14,6 +15,7 @@ dependencies:
     - field.field.node.session.field_speakers
     - field.field.node.session.field_status
     - field.field.node.session.field_topic
+    - field.field.node.session.field_underrepresented_community
     - node.type.session
   module:
     - file
@@ -32,6 +34,16 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_are_you_a_first_time_speak:
+    weight: 112
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
     region: content
   field_audience_level:
     weight: 105
@@ -115,6 +127,13 @@ content:
       link: false
     third_party_settings: {  }
     type: entity_reference_label
+    region: content
+  field_underrepresented_community:
+    weight: 113
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
     region: content
   links:
     weight: 100

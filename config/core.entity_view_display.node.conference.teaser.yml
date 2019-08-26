@@ -5,6 +5,8 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.conference.body
+    - field.field.node.conference.field_conf_year
+    - field.field.node.conference.field_sponsor
     - node.type.conference
   module:
     - text
@@ -25,6 +27,8 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   field_conf_year: true
   field_sponsor: true

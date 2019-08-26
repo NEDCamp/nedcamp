@@ -4,6 +4,9 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.sponsorship.field_company
+    - field.field.node.sponsorship.field_conf_year
+    - field.field.node.sponsorship.field_sponsor_level
     - node.type.sponsorship
   module:
     - user
@@ -15,6 +18,8 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   field_company: true
   field_conf_year: true

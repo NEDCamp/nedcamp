@@ -39,7 +39,7 @@ display:
       query:
         type: views_query
         options:
-          disable_sql_rewrite: false
+          disable_sql_rewrite: true
           distinct: false
           replica: false
           query_comment: ''
@@ -506,6 +506,10 @@ display:
           plugin_id: numeric
       display_extenders: {  }
       show_admin_links: false
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
     cache_metadata:
       max-age: -1
       contexts:

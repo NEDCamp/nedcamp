@@ -5,5 +5,4 @@ dependencies: {  }
 name: 'Sponsorship Levels'
 vid: sponsorship_levels
 description: 'Used to group sponsors by type'
-hierarchy: 0
 weight: 0

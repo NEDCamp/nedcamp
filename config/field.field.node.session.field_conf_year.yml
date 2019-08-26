@@ -7,7 +7,7 @@ dependencies:
     - node.type.session
     - taxonomy.vocabulary.conference_years
   content:
-    - 'taxonomy_term:conference_years:30e0e9ed-2819-4482-b0c8-7ff32ea7b2e8'
+    - 'taxonomy_term:conference_years:29714f71-e34b-4dba-8dbf-4b56dd86ccc6'
 id: node.session.field_conf_year
 field_name: field_conf_year
 entity_type: node
@@ -18,7 +18,7 @@ required: true
 translatable: false
 default_value:
   -
-    target_uuid: 30e0e9ed-2819-4482-b0c8-7ff32ea7b2e8
+    target_uuid: 29714f71-e34b-4dba-8dbf-4b56dd86ccc6
 default_value_callback: ''
 settings:
   handler: 'default:taxonomy_term'

@@ -1,0 +1,19 @@
+uuid: ab609c20-c845-49ca-838f-b864a9d7051d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_sponsorship_twitter
+    - node.type.sponsorship
+id: node.sponsorship.field_ct_sponsorship_twitter
+field_name: field_ct_sponsorship_twitter
+entity_type: node
+bundle: sponsorship
+label: Twitter
+description: 'This will be used to populate a tweet for thanking the sponsor - keep to 280 characters.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

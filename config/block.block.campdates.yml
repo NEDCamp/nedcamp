@@ -6,6 +6,7 @@ dependencies:
     - simple_block.simple_block.camp_dates
   module:
     - simple_block
+    - system
   theme:
     - showcaseplus
 id: campdates
@@ -19,4 +20,9 @@ settings:
   label: 'Camp Dates'
   provider: simple_block
   label_display: '0'
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: /roadshow
+    negate: true
+    context_mapping: {  }

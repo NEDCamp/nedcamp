@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.sponsorship.field_company
     - field.field.node.sponsorship.field_conf_year
+    - field.field.node.sponsorship.field_ct_sponsorship_twitter
     - field.field.node.sponsorship.field_sponsor_level
     - node.type.sponsorship
   module:
@@ -30,6 +31,13 @@ content:
     third_party_settings: {  }
     type: entity_reference_label
     region: content
+  field_ct_sponsorship_twitter:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
   field_sponsor_level:
     weight: 102
     label: above
@@ -41,4 +49,6 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden: {  }

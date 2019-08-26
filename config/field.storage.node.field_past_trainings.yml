@@ -1,0 +1,23 @@
+uuid: 1c5d8ddb-9c66-40e1-8c1b-2bf04b2d617e
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - node
+    - text
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: node.field_past_trainings
+field_name: field_past_trainings
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

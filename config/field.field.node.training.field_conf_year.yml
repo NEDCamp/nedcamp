@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.field_conf_year
     - node.type.training
     - taxonomy.vocabulary.conference_years
+  content:
+    - 'taxonomy_term:conference_years:29714f71-e34b-4dba-8dbf-4b56dd86ccc6'
 id: node.training.field_conf_year
 field_name: field_conf_year
 entity_type: node
@@ -14,7 +16,9 @@ label: 'Conference Year'
 description: 'Select the year of this event.'
 required: false
 translatable: true
-default_value: {  }
+default_value:
+  -
+    target_uuid: 29714f71-e34b-4dba-8dbf-4b56dd86ccc6
 default_value_callback: ''
 settings:
   handler: 'default:taxonomy_term'

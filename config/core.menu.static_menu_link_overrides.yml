@@ -6,15 +6,15 @@ definitions:
     expanded: false
     enabled: true
   standard__front_page:
-    weight: -49
+    weight: -50
     menu_name: main
     parent: ''
-    expanded: false
     enabled: true
+    expanded: false
   user__logout:
+    weight: -41
     menu_name: main
     parent: ''
-    weight: 10
     expanded: false
     enabled: true
 _core:

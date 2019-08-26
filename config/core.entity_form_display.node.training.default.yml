@@ -9,11 +9,15 @@ dependencies:
     - field.field.node.training.field_conf_room
     - field.field.node.training.field_conf_timeslot
     - field.field.node.training.field_conf_year
+    - field.field.node.training.field_past_trainings
     - field.field.node.training.field_requirements
     - field.field.node.training.field_resources
     - field.field.node.training.field_speakers
     - field.field.node.training.field_status
     - field.field.node.training.field_topic
+    - field.field.node.training.field_training_goals
+    - field.field.node.training.field_training_length
+    - field.field.node.training.field_training_size_limit
     - node.type.training
   module:
     - field_group
@@ -82,6 +86,14 @@ content:
     third_party_settings: {  }
     type: options_select
     region: content
+  field_past_trainings:
+    weight: 28
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
   field_requirements:
     weight: 5
     settings:
@@ -118,6 +130,27 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: options_select
+    region: content
+  field_training_goals:
+    weight: 26
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_training_length:
+    weight: 29
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_training_size_limit:
+    weight: 27
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
     region: content
   status:
     type: boolean_checkbox

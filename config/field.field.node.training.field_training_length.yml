@@ -1,0 +1,21 @@
+uuid: 4dc4ec08-ff35-4316-9f47-0f3a3fe938cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_training_length
+    - node.type.training
+  module:
+    - options
+id: node.training.field_training_length
+field_name: field_training_length
+entity_type: node
+bundle: training
+label: 'Training Length'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
