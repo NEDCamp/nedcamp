@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.sponsorship.field_company
     - field.field.node.sponsorship.field_conf_year
+    - field.field.node.sponsorship.field_ct_sponsorship_hashtags
     - field.field.node.sponsorship.field_ct_sponsorship_twitter
     - field.field.node.sponsorship.field_sponsor_level
     - node.type.sponsorship
@@ -36,6 +37,14 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: options_select
+    region: content
+  field_ct_sponsorship_hashtags:
+    weight: 27
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   field_ct_sponsorship_twitter:
     weight: 26
