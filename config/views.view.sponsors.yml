@@ -556,7 +556,7 @@ display:
             alter_text: true
             text: 'Thank this Sponsor!'
             make_link: true
-            path: 'https://twitter.com/share?text={{ field_ct_sponsorship_twitter__value }}'
+            path: 'https://twitter.com/share?url=https://nedcamp.org&text={{ field_ct_sponsorship_twitter__value }}&hashtags={{ field_ct_sponsorship_hashtags }}'
             absolute: false
             external: true
             replace_spaces: false
@@ -973,7 +973,7 @@ display:
             alter_text: true
             text: 'Thank this Sponsor!'
             make_link: true
-            path: 'https://twitter.com/share?text={{ field_ct_sponsorship_twitter__value }}'
+            path: 'https://twitter.com/share?url=https://nedcamp.org&text={{ field_ct_sponsorship_twitter__value }}&hashtags={{ field_ct_sponsorship_hashtags }}'
             absolute: false
             external: true
             replace_spaces: false
