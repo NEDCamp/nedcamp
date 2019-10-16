@@ -81,11 +81,12 @@ content:
     region: content
   field_speakers:
     weight: 0
-    label: inline
+    label: above
     settings:
-      link: true
+      view_mode: compact
+      link: false
     third_party_settings: {  }
-    type: entity_reference_label
+    type: entity_reference_entity_view
     region: content
   field_topic:
     weight: 1
