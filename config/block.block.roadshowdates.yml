@@ -12,7 +12,7 @@ dependencies:
 id: roadshowdates
 theme: showcaseplus
 region: banner
-weight: 0
+weight: -10
 provider: null
 plugin: 'simple_block:roadshow_dates'
 settings:

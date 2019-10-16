@@ -1,0 +1,11 @@
+uuid: defef99e-5dff-4cc2-bce4-3b16bb3ea3e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+id: ned2019_keynotes
+title: '2019 Keynote Speakers'
+content:
+  value: "<div class=\"container\" style=\"align-content:end;background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('/sites/default/files/photos/2018-10/RIC-Craig-Lee-and-Gaige-Halls7.png') no-repeat right top;background-size: cover;\">\r\n<div class=\"row\" style=\"color:#FFFF;text-align:center;font-weight:bold\">\r\n<h4>\"<a href=\"https://nedcamp.org/focus-keynote-2019\" style=\"color:white\">Being Human</a>\" Keynote Panel Speakers</h4>\r\n\r\n<div class=\"col-md-4\"><img alt=\"Dori Kelner\" src=\"/sites/default/files/media/images/dori_headshot.jpg\" /><br />\r\n<span style=\"font-size:18px\">Dori Kelner - Insightful Culture</span></div>\r\n\r\n<div class=\"col-md-4\"><img alt=\"J.D. Flynn\" src=\"/sites/default/files/media/images/jd_headshot.jpg\" /><br />\r\n<span style=\"font-size:18px\">J.D. Flynn - Genuine</span></div>\r\n\r\n<div class=\"col-md-4\"><img alt=\"Matt Westgate\" src=\"/sites/default/files/media/images/matt_headshot.jpg\" /><br />\r\n<span style=\"font-size:18px\">Matt Westgate - Lullabot</span></div>\r\n</div>\r\n</div>\r\n"
+  format: full_html

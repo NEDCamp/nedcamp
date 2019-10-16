@@ -1,28 +1,28 @@
-uuid: 55fd892e-5c09-4a0e-b03b-8f68ba80c97d
+uuid: 534be9a4-c84c-4f99-8353-d3be4e5446ba
 langcode: en
 status: true
 dependencies:
   config:
-    - simple_block.simple_block.camp_dates
+    - simple_block.simple_block.ned2019_keynotes
   module:
     - simple_block
     - system
   theme:
     - showcaseplus
-id: campdates
+id: 2019keynotespeakers
 theme: showcaseplus
 region: banner
-weight: -11
+weight: -9
 provider: null
-plugin: 'simple_block:camp_dates'
+plugin: 'simple_block:ned2019_keynotes'
 settings:
-  id: 'simple_block:camp_dates'
-  label: 'Camp Dates'
+  id: 'simple_block:ned2019_keynotes'
+  label: '2019 Keynote Speakers'
   provider: simple_block
   label_display: '0'
 visibility:
   request_path:
     id: request_path
-    pages: /roadshow
-    negate: true
+    pages: '<front>'
+    negate: false
     context_mapping: {  }

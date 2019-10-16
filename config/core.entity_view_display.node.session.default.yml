@@ -19,7 +19,6 @@ dependencies:
     - node.type.session
   module:
     - file
-    - options
     - text
     - user
     - video_embed_field
@@ -31,22 +30,12 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 101
+    weight: 1
     settings: {  }
     third_party_settings: {  }
     region: content
-  field_are_you_a_first_time_speak:
-    weight: 112
-    label: above
-    settings:
-      format: default
-      format_custom_false: ''
-      format_custom_true: ''
-    third_party_settings: {  }
-    type: boolean
-    region: content
   field_audience_level:
-    weight: 105
+    weight: 4
     label: inline
     settings:
       link: false
@@ -54,7 +43,7 @@ content:
     type: entity_reference_label
     region: content
   field_conf_day:
-    weight: 110
+    weight: 7
     label: inline
     settings:
       link: true
@@ -62,23 +51,15 @@ content:
     type: entity_reference_label
     region: content
   field_conf_room:
-    weight: 111
-    label: inline
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
-  field_conf_timeslot:
-    weight: 109
+    weight: 8
     label: inline
     settings:
       link: false
     third_party_settings: {  }
     type: entity_reference_label
     region: content
-  field_conf_year:
-    weight: 108
+  field_conf_timeslot:
+    weight: 6
     label: inline
     settings:
       link: false
@@ -86,7 +67,7 @@ content:
     type: entity_reference_label
     region: content
   field_recording:
-    weight: 107
+    weight: 9
     label: above
     settings:
       responsive: true
@@ -97,7 +78,7 @@ content:
     type: video_embed_field_video
     region: content
   field_slides:
-    weight: 103
+    weight: 3
     label: inline
     settings:
       use_description_as_link_text: true
@@ -105,7 +86,7 @@ content:
     type: file_default
     region: content
   field_speakers:
-    weight: 102
+    weight: 2
     label: inline
     settings:
       view_mode: compact
@@ -113,31 +94,21 @@ content:
     third_party_settings: {  }
     type: entity_reference_entity_view
     region: content
-  field_status:
-    weight: 104
-    label: inline
-    settings: {  }
-    third_party_settings: {  }
-    type: list_default
-    region: content
   field_topic:
-    weight: 106
+    weight: 5
     label: inline
     settings:
       link: false
     third_party_settings: {  }
     type: entity_reference_label
     region: content
-  field_underrepresented_community:
-    weight: 113
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: list_default
-    region: content
   links:
-    weight: 100
+    weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_are_you_a_first_time_speak: true
+  field_conf_year: true
+  field_status: true
+  field_underrepresented_community: true

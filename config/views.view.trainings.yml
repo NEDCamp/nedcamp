@@ -241,7 +241,7 @@ display:
           entity_type: node
           entity_field: title
           plugin_id: standard
-      title: 'Accepted Trainings'
+      title: Trainings
       header: {  }
       footer: {  }
       empty: {  }
@@ -344,10 +344,25 @@ display:
       defaults:
         empty: false
         pager: false
+        header: false
       pager:
         type: none
         options:
           offset: 0
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: true
+          tokenize: false
+          content:
+            value: 'All training courses are on November 22, 2019 at Rhode Island College.  Seating is limited and varies for each training. Full-day training costs $100 and half-day costs $50.   Lunch is not included, but available on campus. <br><br>   <a href="https://ti.to/nedcamp/2019training" class="button">Register Now</a> <br><br>'
+            format: full_html
+          plugin_id: text
     cache_metadata:
       max-age: -1
       contexts:

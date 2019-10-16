@@ -30,14 +30,14 @@ bundle: training
 mode: default
 content:
   body:
-    label: hidden
+    label: above
     type: text_default
-    weight: 5
+    weight: 3
     settings: {  }
     third_party_settings: {  }
     region: content
   field_audience_level:
-    weight: 4
+    weight: 2
     label: inline
     settings:
       link: false
@@ -45,31 +45,31 @@ content:
     type: entity_reference_label
     region: content
   field_conf_room:
-    weight: 2
-    label: hidden
+    weight: 8
+    label: inline
     settings:
       link: false
     third_party_settings: {  }
     type: entity_reference_label
     region: content
   field_conf_timeslot:
-    weight: 1
-    label: hidden
+    weight: 9
+    label: inline
     settings:
       link: false
     third_party_settings: {  }
     type: entity_reference_label
     region: content
   field_requirements:
-    weight: 6
+    weight: 5
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_resources:
-    weight: 8
-    label: hidden
+    weight: 6
+    label: above
     settings:
       trim_length: 80
       url_only: false
@@ -80,15 +80,15 @@ content:
     type: link
     region: content
   field_speakers:
-    weight: 3
+    weight: 0
     label: inline
     settings:
-      link: false
+      link: true
     third_party_settings: {  }
     type: entity_reference_label
     region: content
   field_topic:
-    weight: 7
+    weight: 1
     label: inline
     settings:
       link: false
@@ -96,21 +96,21 @@ content:
     type: entity_reference_label
     region: content
   field_training_goals:
-    weight: 9
+    weight: 4
     label: above
     settings: {  }
     third_party_settings: {  }
     type: basic_string
     region: content
   field_training_length:
-    weight: 10
-    label: above
+    weight: 7
+    label: inline
     settings: {  }
     third_party_settings: {  }
     type: list_default
     region: content
   links:
-    weight: 0
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
