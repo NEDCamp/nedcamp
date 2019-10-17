@@ -1,0 +1,49 @@
+uuid: 005791a6-4ae1-4e93-b35f-4411c7a1be87
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.pdf.field_pdf
+    - media_entity.bundle.pdf
+  module:
+    - file
+    - user
+id: media.pdf.default
+targetEntityType: media
+bundle: pdf
+mode: default
+content:
+  created:
+    label: hidden
+    type: timestamp
+    weight: 2
+    region: content
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+  field_pdf:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: file_url_plain
+    region: content
+  name:
+    label: hidden
+    type: string
+    weight: 0
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  uid:
+    label: hidden
+    type: author
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  thumbnail: true

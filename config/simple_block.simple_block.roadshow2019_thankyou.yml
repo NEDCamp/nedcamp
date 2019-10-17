@@ -1,0 +1,11 @@
+uuid: fee2f686-54d8-486d-a40f-47f2c2012d8c
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+id: roadshow2019_thankyou
+title: 'Roadshow 2019 Thank you'
+content:
+  value: "<p>We hope you found the 2019 NEDCamp Roadshow informative and helpful.&nbsp; To continue your learning of Drupal, we encourage you to join us on November 22nd &amp; 23rd at New England Drupal Camp.</p>\r\n"
+  format: basic_html

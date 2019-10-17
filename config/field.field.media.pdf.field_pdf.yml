@@ -1,0 +1,27 @@
+uuid: 3ffa445c-d274-47de-b2ef-dbb7321558e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_pdf
+    - media_entity.bundle.pdf
+  module:
+    - file
+id: media.pdf.field_pdf
+field_name: field_pdf
+entity_type: media
+bundle: pdf
+label: PDF
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: media/pdfs
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

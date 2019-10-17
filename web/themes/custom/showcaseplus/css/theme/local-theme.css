@@ -42,3 +42,36 @@ a.button {
 #block-nedcamp {
     padding-bottom: 1em;
 }
+
+.page-node-type-session .field--name-field-speakers .field__items {
+    width: 100%;
+}
+
+.page-node-type-session .field--name-field-speakers .field__item {
+    width: 50%;
+}
+
+.field--name-field-audience-level {
+    margin: 0.5rem 0;
+}
+
+.field--name-field-topic {
+    margin: 0.5rem 0;
+}
+
+.page-node-type-session .field--name-field-audience-level {
+    margin: 0.5rem 0;
+}
+
+.node ul.inline li.node-readmore a {
+    padding: 7px;
+}
+
+.node--view-mode-teaser {
+    margin-bottom: 2rem;
+    padding-bottom: 0;
+}
+
+.node__links {
+    margin-top: 1rem;
+}

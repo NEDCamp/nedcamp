@@ -210,7 +210,7 @@ display:
           entity_type: node
           entity_field: title
           plugin_id: standard
-      title: 'Accepted Sessions'
+      title: Sessions
       header:
         area:
           id: area
@@ -326,10 +326,25 @@ display:
       defaults:
         empty: false
         pager: false
+        header: false
       pager:
         type: none
         options:
           offset: 0
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: "<p>View the <b><a href=\"/days/2019/2019-sessions-day-saturday\">Session Schedule</a></b></p>\r\n"
+            format: full_html
+          plugin_id: text
     cache_metadata:
       max-age: -1
       contexts:
