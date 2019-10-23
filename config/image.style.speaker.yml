@@ -1,0 +1,15 @@
+uuid: fff5c88c-e48a-4615-b017-c014e0c4cff9
+langcode: en
+status: true
+dependencies: {  }
+name: speaker
+label: Speaker
+effects:
+  4fd93d0f-b3ba-468b-9865-294af4d1af88:
+    uuid: 4fd93d0f-b3ba-468b-9865-294af4d1af88
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 220
+      height: 220
+      anchor: center-center
