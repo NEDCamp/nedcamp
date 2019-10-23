@@ -52,21 +52,34 @@ a.button {
 }
 
 
+.page-node-type-training .field.field--name-field-first-name.field--type-string.field--label-hidden.field__item,
 .page-node-type-session  .field.field--name-field-first-name.field--type-string.field--label-hidden.field__item {
     float: left;
     width: auto;
 }
 
+.page-node-type-training .field.field--name-field-last-name.field--type-string.field--label-hidden.field__item,
 .page-node-type-session .field.field--name-field-last-name.field--type-string.field--label-hidden.field__item {
     float: left;
     width: auto;
     margin-left: 3px;
 }
 
+
+.page-node-type-training .field.field--name-field-company.field--type-string.field--label-hidden.field__item,
+.page-node-type-training .field.field--name-field-job-title.field--type-string.field--label-hidden.field__item,
+.page-node-type-training .clearfix.text-formatted.field.field--name-field-bio.field--type-text-long.field--label-hidden.field__item,
 .page-node-type-session .field.field--name-field-job-title.field--type-string.field--label-hidden.field__item,
 .page-node-type-session .field.field--name-field-company.field--type-string.field--label-hidden.field__item,
 .page-node-type-session .clearfix.text-formatted.field.field--name-field-bio.field--type-text-long.field--label-hidden.field__item {
     clear: both;
+}
+
+.page-node-type-training .field.field--name-user-picture.field--type-image.field--label-hidden.field__item img,
+.page-node-type-session .field.field--name-user-picture.field--type-image.field--label-hidden.field__item img {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
 }
 
 .field--name-field-audience-level {
