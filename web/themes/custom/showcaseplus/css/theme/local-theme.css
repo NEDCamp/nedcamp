@@ -69,6 +69,12 @@ a.button {
     clear: both;
 }
 
+.page-node-type-session .field.field--name-user-picture.field--type-image.field--label-hidden.field__item img {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+
 .field--name-field-audience-level {
     margin: 0.5rem 0;
 }
