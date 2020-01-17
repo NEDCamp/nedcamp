@@ -10,10 +10,8 @@ dependencies:
     - field.field.user.user.field_job_title
     - field.field.user.user.field_last_name
     - field.field.user.user.user_picture
-    - image.style.speaker
   module:
     - image
-    - text
     - user
 _core:
   default_config_hash: '-cLsS3M3JycipXQt9rEb81_HxKneReoGuRh8ijcOPXs'
@@ -22,13 +20,6 @@ targetEntityType: user
 bundle: user
 mode: compact
 content:
-  field_bio:
-    type: text_default
-    weight: 5
-    region: content
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
   field_company:
     type: string
     weight: 3
@@ -67,8 +58,9 @@ content:
     region: content
     label: hidden
     settings:
-      image_style: speaker
+      image_style: ''
       image_link: ''
     third_party_settings: {  }
 hidden:
+  field_bio: true
   member_for: true

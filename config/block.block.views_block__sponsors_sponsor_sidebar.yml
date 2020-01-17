@@ -12,7 +12,7 @@ dependencies:
 id: views_block__sponsors_sponsor_sidebar
 theme: showcaseplus
 region: sidebar_first
-weight: -9
+weight: 0
 provider: null
 plugin: 'views_block:sponsors-sponsor_sidebar'
 settings:
