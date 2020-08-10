@@ -1,0 +1,21 @@
+uuid: a3e71f49-9f82-40d6-b25e-6601352bebe9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bof_moderation
+    - node.type.bof_topic
+  module:
+    - options
+id: node.bof_topic.field_bof_moderation
+field_name: field_bof_moderation
+entity_type: node
+bundle: bof_topic
+label: Moderation
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
