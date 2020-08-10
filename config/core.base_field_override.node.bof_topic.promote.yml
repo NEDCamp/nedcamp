@@ -1,0 +1,22 @@
+uuid: 99af59e1-7d66-4c17-b0e9-8f93789888a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.bof_topic
+id: node.bof_topic.promote
+field_name: promote
+entity_type: node
+bundle: bof_topic
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

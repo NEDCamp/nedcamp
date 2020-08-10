@@ -7,5 +7,5 @@ dependencies:
 id: footer_contact
 title: Contract
 content:
-  value: "<p><a href=\"//twitter.com/nedcamp\">Twitter</a></p>\r\n\r\n<p><a href=\"https://www.facebook.com/NewEnglandDrupalcamp\">Facebook</a></p>\r\n\r\n<p><a href=\"http://www.pinterest.com/NEDCAMP\">Pintrest</a></p>\r\n\r\n<p><a href=\"mailto:admin@nedcamp.org\">admin@nedcamp.org</a></p>\r\n"
+  value: "<p><a href=\"//twitter.com/nedcamp\">Twitter</a></p>\r\n\r\n<p><a href=\"https://www.facebook.com/NewEnglandDrupalcamp\">Facebook</a></p>\r\n\r\n<p><a href=\"mailto:admin@nedcamp.org\">admin@nedcamp.org</a></p>\r\n"
   format: full_html

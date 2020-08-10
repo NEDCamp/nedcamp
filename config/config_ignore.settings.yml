@@ -1,6 +1,6 @@
 ignored_config_entities:
-  - mailchimp.settings
-  - sendgrid_integration.settings
-  - recaptcha.settings
+  0: mailchimp.settings
+  2: sendgrid_integration.settings
+  4: recaptcha.settings
 _core:
   default_config_hash: UVH1aJ4b44UM-VdPVN7hNNuuVqfReJxwfVeDQH1Hvsk
