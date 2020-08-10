@@ -17,8 +17,8 @@ jobs:
       - run: git add .
       - run: echo -e "Host codeserver.dev.1e9ab33c-01d3-42bd-bb42-5008333172a3.drush.in\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
       - run: ssh-keyscan codeserver.dev.1e9ab33c-01d3-42bd-bb42-5008333172a3.drush.in >> ~/.ssh/known_hosts
-      - run: echo -e "Host appserver.dev.9225030c-a7be-4638-af40-2af5a31a1279.drush.in\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
-      - run: ssh-keyscan appserver.dev.9225030c-a7be-4638-af40-2af5a31a1279.drush.in >> ~/.ssh/known_hosts
+      - run: echo -e "Host appserver.dev.1e9ab33c-01d3-42bd-bb42-5008333172a3.drush.in\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+      - run: ssh-keyscan appserver.dev.1e9ab33c-01d3-42bd-bb42-5008333172a3.drush.in >> ~/.ssh/known_hosts
       - run: terminus env:wake nedcamp.dev
       - run: git commit -m "add build files to branches to push to Pantheon"
       - run: git remote add pantheon ssh://codeserver.dev.1e9ab33c-01d3-42bd-bb42-5008333172a3@codeserver.dev.1e9ab33c-01d3-42bd-bb42-5008333172a3.drush.in:2222/~/repository.git
