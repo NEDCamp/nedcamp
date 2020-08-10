@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.field.node.bof_topic.body
     - field.field.node.bof_topic.field_bof_category
-    - field.field.node.bof_topic.field_moderate
+    - field.field.node.bof_topic.field_bof_moderation
     - node.type.bof_topic
   module:
     - options
@@ -31,7 +31,7 @@ content:
     third_party_settings: {  }
     type: entity_reference_label
     region: content
-  field_moderate:
+  field_bof_moderation:
     weight: 103
     label: above
     settings: {  }

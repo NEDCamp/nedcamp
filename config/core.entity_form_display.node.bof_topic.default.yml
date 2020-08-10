@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.field.node.bof_topic.body
     - field.field.node.bof_topic.field_bof_category
-    - field.field.node.bof_topic.field_moderate
+    - field.field.node.bof_topic.field_bof_moderation
     - node.type.bof_topic
   module:
     - path
@@ -22,6 +22,7 @@ content:
       rows: 9
       summary_rows: 3
       placeholder: ''
+      show_summary: false
     third_party_settings: {  }
     region: content
   created:
@@ -36,11 +37,11 @@ content:
     third_party_settings: {  }
     type: options_select
     region: content
-  field_moderate:
+  field_bof_moderation:
     weight: 2
     settings: {  }
     third_party_settings: {  }
-    type: options_select
+    type: options_buttons
     region: content
   path:
     type: path
@@ -84,6 +85,7 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+      match_limit: 10
     region: content
     third_party_settings: {  }
 hidden: {  }
