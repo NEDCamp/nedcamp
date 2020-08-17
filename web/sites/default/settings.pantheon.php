@@ -170,10 +170,10 @@ if (isset($_ENV['PANTHEON_ENVIRONMENT'])) {
  * Place the config directory outside of the Drupal root.
  */
 $config_directories = [
-  CONFIG_SYNC_DIRECTORY => dirname(DRUPAL_ROOT) . '/config',
+  CONFIG_SYNC_DIRECTORY => dirname(DRUPAL_ROOT) . '../config',
 ];
-$settings['config_sync_directory'] = dirname(DRUPAL_ROOT) . '/config';
-
+$settings['config_sync_directory'] = dirname(DRUPAL_ROOT) . '../config';
+$config_directories['sync'] = '../config';
 /**
  * The default list of directories that will be ignored by Drupal's file API.
  *
