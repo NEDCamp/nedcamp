@@ -82,7 +82,6 @@ settings:
   wizard_progress_pages: false
   wizard_progress_percentage: false
   wizard_progress_link: false
-  wizard_progress_states: false
   wizard_start_label: ''
   wizard_preview_link: false
   wizard_confirmation: true
@@ -130,7 +129,6 @@ settings:
   purge_days: null
   results_disabled: false
   results_disabled_ignore: false
-  token_view: false
   token_update: false
 access:
   create:
@@ -205,7 +203,6 @@ handlers:
       ignore_access: false
       exclude_empty: true
       exclude_empty_checkbox: false
-      exclude_attachments: false
       html: true
       attachments: false
       twig: false
@@ -215,7 +212,6 @@ handlers:
       sender_mail: ''
       sender_name: ''
       theme_name: ''
-      parameters: {  }
   email_notification:
     id: email
     label: 'Email notification'
@@ -241,7 +237,6 @@ handlers:
       ignore_access: false
       exclude_empty: true
       exclude_empty_checkbox: false
-      exclude_attachments: false
       html: true
       attachments: false
       twig: false
@@ -251,7 +246,6 @@ handlers:
       sender_mail: ''
       sender_name: ''
       theme_name: ''
-      parameters: {  }
   mailchimp:
     id: mailchimp
     label: MailChimp
@@ -266,7 +260,6 @@ handlers:
       mergevars: ''
       interest_groups: {  }
       control: ''
-variants: {  }
 uuid: 82d11912-8763-478f-9652-088b6ead5dcc
 _core:
   default_config_hash: wAMM24AQ4SZHdKFQh9c-fVPQCPsgd0bA5Sw7nS6Nds0

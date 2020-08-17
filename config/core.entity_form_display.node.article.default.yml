@@ -27,7 +27,6 @@ content:
       rows: 9
       summary_rows: 3
       placeholder: ''
-      show_summary: false
     third_party_settings: {  }
   created:
     type: datetime_timestamp
@@ -47,11 +46,7 @@ content:
     type: entity_reference_autocomplete_tags
     weight: 3
     region: content
-    settings:
-      match_limit: 10
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
+    settings: {  }
     third_party_settings: {  }
   path:
     type: path
@@ -96,6 +91,5 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
-      match_limit: 10
     third_party_settings: {  }
 hidden: {  }
