@@ -58,27 +58,6 @@ $settings['file_private_path'] = 'sites/default/files/private';
 $is_installer_url = (strpos($_SERVER['SCRIPT_NAME'], '/core/install.php') === 0);
 
 /**
- * Add the Drupal 8 CMI Directory Information directly in settings.php to make sure
- * Drupal knows all about that.
- *
- * Issue: https://github.com/pantheon-systems/drops-8/issues/2
- *
- * IMPORTANT SECURITY NOTE:  The configuration paths set up
- * below are secure when running your site on Pantheon.  If you
- * migrate your site to another environment on the public internet,
- * you should relocate these locations. See "After Installation"
- * at https://www.drupal.org/node/2431247
- *
- */
-if ($is_installer_url) {
-  $settings['config_sync_directory'] =  'sites/default/files';
-}
-else {
-  $settings['config_sync_directory'] = 'sites/default/config';
-}
-
-
-/**
  * Allow Drupal 8 to Cleanly Redirect to Install.php For New Sites.
  *
  * Issue: https://github.com/pantheon-systems/drops-8/issues/3
@@ -185,7 +164,14 @@ if (isset($_ENV['PANTHEON_ENVIRONMENT'])) {
   $settings['trusted_host_patterns'][] = '.*';
 }
 
-$settings['config_sync_directory'] = '../config';
+// $settings['config_sync_directory'] = '../config';
+// $config_directories['sync'] = '../config';
+/**
+ * Place the config directory outside of the Drupal root.
+ */
+$config_directories = [
+  CONFIG_SYNC_DIRECTORY => dirname(DRUPAL_ROOT) . '/config',
+];
 
 /**
  * The default list of directories that will be ignored by Drupal's file API.
