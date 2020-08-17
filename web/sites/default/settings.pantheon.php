@@ -164,16 +164,14 @@ if (isset($_ENV['PANTHEON_ENVIRONMENT'])) {
   $settings['trusted_host_patterns'][] = '.*';
 }
 
-// $settings['config_sync_directory'] = '../config';
-// $config_directories['sync'] = '../config';
 /**
  * Place the config directory outside of the Drupal root.
  */
 $config_directories = [
-  CONFIG_SYNC_DIRECTORY => dirname(DRUPAL_ROOT) . '../config',
+  CONFIG_SYNC_DIRECTORY => dirname(DRUPAL_ROOT) . '/config',
 ];
-$settings['config_sync_directory'] = dirname(DRUPAL_ROOT) . '../config';
-$config_directories['sync'] = '../config';
+$settings['config_sync_directory'] = dirname(DRUPAL_ROOT) . '/config';
+$config_directories['sync'] = '/config';
 /**
  * The default list of directories that will be ignored by Drupal's file API.
  *
