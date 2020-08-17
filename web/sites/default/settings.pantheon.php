@@ -172,6 +172,7 @@ if (isset($_ENV['PANTHEON_ENVIRONMENT'])) {
 $config_directories = [
   CONFIG_SYNC_DIRECTORY => dirname(DRUPAL_ROOT) . '/config',
 ];
+$settings['config_sync_directory'] = dirname(DRUPAL_ROOT) . '/config';
 
 /**
  * The default list of directories that will be ignored by Drupal's file API.
