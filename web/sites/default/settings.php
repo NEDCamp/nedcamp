@@ -59,3 +59,12 @@ if (isset($_ENV['PANTHEON_ENVIRONMENT']) && php_sapi_name() != 'cli') {
     $settings['trusted_host_patterns'] = array('^'. preg_quote($primary_domain) .'$');
   }
 }
+
+/**
+ * Place the config directory outside of the Drupal root.
+ */
+$config_directories = [
+  CONFIG_SYNC_DIRECTORY => dirname(DRUPAL_ROOT) . '/config',
+];
+$settings['config_sync_directory'] = dirname(DRUPAL_ROOT) . '/config';
+$config_directories['sync'] = '/config';
