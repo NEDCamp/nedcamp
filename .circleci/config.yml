@@ -23,7 +23,7 @@ jobs:
       - run: git commit -m "add build files to branches to push to Pantheon"
       - run: git remote add pantheon ssh://codeserver.dev.1e9ab33c-01d3-42bd-bb42-5008333172a3@codeserver.dev.1e9ab33c-01d3-42bd-bb42-5008333172a3.drush.in:2222/~/repository.git
       - run: if [[ $CIRCLE_BRANCH == 'master' ]] ; then git push --force  pantheon master:master ; fi
-      - run: sleep 60
+      - run: sleep 120
       - run: terminus env:clear-cache nedcamp.dev
       - run: terminus -n drush nedcamp.dev -- updb --yes
       - run: terminus -n drush nedcamp.dev -- config-import --yes
