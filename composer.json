@@ -27,6 +27,7 @@
     "drupal/field_group": "^1.0",
     "drupal/field_permissions": "^1.0@beta",
     "drupal/google_analytics": "^3.0",
+    "drupal/honeypot": "^2.0",
     "drupal/inline_entity_form": "^1.0@RC",
     "drupal/mailchimp": "^1.7",
     "drupal/media_entity": "^1.7",
