@@ -11,12 +11,13 @@ id: node.bof_topic.body
 field_name: body
 entity_type: node
 bundle: bof_topic
-label: Description
-description: ''
+label: 'Please provide a topic description'
+description: 'Please provide a description of the BoF topic. Please include a minimum of 3 discussion questions around the topic to help structure the conversation.'
 required: true
 translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
   display_summary: true
+  required_summary: false
 field_type: text_with_summary

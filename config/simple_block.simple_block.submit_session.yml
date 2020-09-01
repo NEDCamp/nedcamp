@@ -7,5 +7,5 @@ dependencies:
 id: submit_session
 title: 'Submit a session'
 content:
-  value: "<p><a href=\"https://nedcamp.org/node/add/session\"><strong>Submit a session</strong></a></p>\r\n\r\n<p><a href=\"https://nedcamp.org/node/add/training\"><strong>Submit a training</strong></a></p>\r\n"
+  value: "<p><a href=\"https://nedcamp.org/node/add/bof_topic\"><strong>Submit a BOF Topic</strong></a></p>\r\n\r\n\r\n"
   format: basic_html

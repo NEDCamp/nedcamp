@@ -11,8 +11,8 @@ id: node.bof_topic.field_bof_moderation
 field_name: field_bof_moderation
 entity_type: node
 bundle: bof_topic
-label: Moderation
-description: ''
+label: 'Do you want to lead the BoF as a moderator?'
+description: 'A moderator is the person to leads and keeps the conversation on track. You are not required to be the topic moderator when submitting an idea, but volunteers for moderators are encouraged!'
 required: true
 translatable: false
 default_value: {  }

@@ -17,10 +17,10 @@ settings:
   allowed_values:
     -
       value: moderate
-      label: 'I am submitting this idea for a BoF topic, and I would like to lead the BoF.'
+      label: 'I would like to lead the BoF'
     -
       value: topic
-      label: 'I am submitting this idea for a BoF topic only, I do not wish to lead the BoF.'
+      label: 'I do not wish to lead the BoF'
   allowed_values_function: ''
 module: options
 locked: false
