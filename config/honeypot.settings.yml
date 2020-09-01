@@ -1,0 +1,32 @@
+unprotected_forms:
+  - user_login_form
+  - search_form
+  - search_block_form
+  - views_exposed_form
+  - honeypot_settings_form
+protect_all_forms: true
+log: false
+element_name: url
+time_limit: 5
+expire: 300
+form_settings:
+  user_register_form: false
+  user_pass: false
+  contact_message_feedback_form: false
+  contact_message_personal_form: false
+  node_article_form: false
+  node_bof_topic_form: false
+  node_company_form: false
+  node_conf_day_form: false
+  node_conf_timeslot_form: false
+  node_conference_form: false
+  node_event_form: false
+  node_location_form: false
+  node_organizer_form: false
+  node_page_form: false
+  node_room_form: false
+  node_session_form: false
+  node_sponsorship_form: false
+  node_training_form: false
+_core:
+  default_config_hash: 9bVDfWSa_In6VzTXmy04jJ_3ZQobihKjO9isuuUCPaw

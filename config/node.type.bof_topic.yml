@@ -12,7 +12,7 @@ third_party_settings:
 name: 'BOF Topic'
 type: bof_topic
 description: ''
-help: ''
+help: "Submit your topic, please submit it as outlined below:\r\n\r\n1. Provide the BoF topic.\r\n2. Include at least 3 discussion questions around the topic to help structure the session.\r\n3. Indicate if you are willing to lead the BoF discussion a BoF Leader (more below).\r\n\r\nSubmissions will be open until midnight, Wednesday, September 30."
 new_revision: true
 preview_mode: 0
 display_submitted: false

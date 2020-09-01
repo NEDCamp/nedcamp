@@ -10,9 +10,9 @@ id: node.bof_topic.field_bof_category
 field_name: field_bof_category
 entity_type: node
 bundle: bof_topic
-label: Category
-description: 'Category if applicable'
-required: false
+label: 'Select a category'
+description: 'The category of the topic you''re submitting. If the topic does not fall under one of these categories please select <strong>Other</strong> and add further explanation in the topic Description below.'
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

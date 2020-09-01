@@ -1,3 +1,4 @@
+uuid: 82d11912-8763-478f-9652-088b6ead5dcc
 langcode: en
 status: open
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
       - webform
   module:
     - webform_mailchimp
+_core:
+  default_config_hash: wAMM24AQ4SZHdKFQh9c-fVPQCPsgd0bA5Sw7nS6Nds0
 open: null
 close: null
 weight: 0
@@ -212,6 +215,8 @@ handlers:
       sender_mail: ''
       sender_name: ''
       theme_name: ''
+      exclude_attachments: false
+      parameters: {  }
   email_notification:
     id: email
     label: 'Email notification'
@@ -246,6 +251,8 @@ handlers:
       sender_mail: ''
       sender_name: ''
       theme_name: ''
+      exclude_attachments: false
+      parameters: {  }
   mailchimp:
     id: mailchimp
     label: MailChimp
@@ -260,6 +267,4 @@ handlers:
       mergevars: ''
       interest_groups: {  }
       control: ''
-uuid: 82d11912-8763-478f-9652-088b6ead5dcc
-_core:
-  default_config_hash: wAMM24AQ4SZHdKFQh9c-fVPQCPsgd0bA5Sw7nS6Nds0
+variants: {  }

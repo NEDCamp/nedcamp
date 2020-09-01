@@ -1,0 +1,11 @@
+uuid: 5bee5ee5-53ec-4989-bce1-0cc8fcb95c5c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.bof_topic
+id: node_type_bof_topic
+action: display_page
+allow_override: 1
+redirect: ''
+redirect_code: 301

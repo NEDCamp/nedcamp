@@ -7,5 +7,5 @@ dependencies:
 id: sidebar_actions
 title: 'Sidebar Actions'
 content:
-  value: "<ul>\r\n\t<li><a class=\"button\" href=\"/sponsor\">Become a Sponsor</a></li>\r\n</ul>\r\n"
+  value: "<ul>\r\n\t<li><a class=\"button\" href=\"/sponsor\">Become a Sponsor</a></li>\r\n\t<li><a class=\"button\" href=\"/submit-topic\">Submit a BoF Topic</a></li>\r\n</ul>\r\n"
   format: full_html
