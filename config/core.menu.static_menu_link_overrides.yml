@@ -12,7 +12,7 @@ definitions:
     enabled: true
     expanded: false
   user__logout:
-    weight: -40
+    weight: -39
     menu_name: main
     parent: ''
     expanded: false

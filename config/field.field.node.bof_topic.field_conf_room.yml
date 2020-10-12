@@ -1,0 +1,28 @@
+uuid: f67d09c4-6e36-456e-9e4a-74b325acdf81
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_conf_room
+    - node.type.bof_topic
+    - node.type.room
+id: node.bof_topic.field_conf_room
+field_name: field_conf_room
+entity_type: node
+bundle: bof_topic
+label: Room
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      room: room
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

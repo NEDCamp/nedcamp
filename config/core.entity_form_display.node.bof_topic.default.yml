@@ -6,6 +6,10 @@ dependencies:
     - field.field.node.bof_topic.body
     - field.field.node.bof_topic.field_bof_category
     - field.field.node.bof_topic.field_bof_moderation
+    - field.field.node.bof_topic.field_conf_day
+    - field.field.node.bof_topic.field_conf_room
+    - field.field.node.bof_topic.field_conf_timeslot
+    - field.field.node.bof_topic.field_conf_year
     - node.type.bof_topic
   module:
     - path
@@ -41,6 +45,46 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: options_buttons
+    region: content
+  field_conf_day:
+    weight: 26
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_conf_room:
+    weight: 29
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_conf_timeslot:
+    weight: 30
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_conf_year:
+    weight: 27
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
     region: content
   path:
     type: path

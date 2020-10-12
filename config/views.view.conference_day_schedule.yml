@@ -7,6 +7,7 @@ dependencies:
     - field.storage.node.field_conf_room
     - field.storage.node.field_conf_timeslot
     - field.storage.node.field_speakers
+    - node.type.bof_topic
     - node.type.conf_day
     - node.type.event
     - node.type.session
@@ -449,6 +450,7 @@ display:
           admin_label: ''
           operator: in
           value:
+            bof_topic: bof_topic
             event: event
             session: session
             training: training
@@ -460,6 +462,8 @@ display:
             description: ''
             use_operator: false
             operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
             identifier: ''
             required: false
             remember: false
@@ -467,8 +471,6 @@ display:
             remember_roles:
               authenticated: authenticated
             reduce: false
-            operator_limit_selection: false
-            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
