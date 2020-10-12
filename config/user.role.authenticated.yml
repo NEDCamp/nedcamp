@@ -15,7 +15,6 @@ permissions:
   - 'access user profiles'
   - 'cancel account'
   - 'change own username'
-  - 'create bof_topic content'
   - 'edit own session content'
   - 'edit own training content'
   - 'opt-in or out of google analytics tracking'
