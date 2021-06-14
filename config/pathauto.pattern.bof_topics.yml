@@ -1,0 +1,22 @@
+uuid: 56fbc11f-ec14-48d8-958f-8bb3256281f8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: bof_topics
+label: 'Bof Topics'
+type: 'canonical_entities:node'
+pattern: 'bof/[node:title]'
+selection_criteria:
+  c7694400-9aed-4003-a290-cf4e36960d4d:
+    id: node_type
+    bundles:
+      bof_topic: bof_topic
+    negate: false
+    context_mapping:
+      node: node
+    uuid: c7694400-9aed-4003-a290-cf4e36960d4d
+selection_logic: and
+weight: -5
+relationships: {  }

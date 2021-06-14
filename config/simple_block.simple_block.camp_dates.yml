@@ -7,5 +7,5 @@ dependencies:
 id: camp_dates
 title: 'Camp Dates'
 content:
-  value: "<p style=\"text-align:center; font-size:24px; text-transform: uppercase; padding: 15px 0 15px 0;\">November 6, 2020 - EVERYWHERE</p>\r\n"
+  value: "<p style=\"text-align:center; font-size:24px; text-transform: uppercase; padding: 15px 0 15px 0;\">November 19, 2021 - Providence, RI (In Person)</p>\r\n"
   format: full_html
